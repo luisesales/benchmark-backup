@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <script
+          src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+      <link rel="stylesheet" id="css" href="./Assets/style.css">
+      <link rel="stylesheet" href="./Bootstrap/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./Bootstrap/bootstrap-4.3.1-dist/css/bootstrap-grid.css">
+      <script src="./Jquery/jquery-3.4.1.min.js" defer></script>
+      <script src="./Assets/index.js" defer></script>
+    </head>
+    <body> 
+      <div class="all mb-5">
+      <div class="container">  
+        <div class="row mb-5">        
+            <div class="col-sm-10">
+              <h1>Benchmark de Frameworks CSS</h1>
+            </div>
+            <div class="col-xs-1"></div>
+            <button class="btn btn-outline-dark col-xs-1 btn-hc" data-css="style" data-css2="stylehc">Alto Contraste</button>
+        </div>    
+        <div class="row mb-4">
+            <h3 class="col-sm-3">Bootstrap</h3>  
+            <div class="col-sm-1"> </div>                      
+            <div class="col-sm-7 ar"data-t="bootstrap_t">          
+                <h4 class="t">Usuários</h4>
+                <div class="back row">
+                  <div id="bootstrap1" class="skills data boot col-sm"></div>
+                </div>
+              
+                <h4 class="y">Estrelas</h4>
+                <div class="back row">
+                  <div id="bootstrap2" class="skills data bootS col-sm"></div>
+                </div>
+                <a id="bootstrap_t" class="row  text-justify"></a>
+            </div>
+        </div> 
+
+        <div class="row mb-5">
+            <h3 class="col-sm-3" >Materialize</h3>
+            <div class="col-sm-1"> </div>             
+            <div class="col-sm-7 ar"data-t="materialize_t">              
+                <h4 class="t">Usuários</h4>
+                <div class="back row">
+                  <div id="materialize1" class="skills data mater col-sm"></div>
+                </div>
+              
+                <h4 class="y">Estrelas</h4>
+                  <div class="back row">
+                    <div id="materialize2" class="skills data materS col-sm"></div>
+                  </div>
+                 <a class="row text-justify" id="materialize_t"></a>
+            </div>
+        </div> 
+
+        <div class="row mb-4">
+            <h3 class="col-sm-3" >Foundation</h3>   
+            <div class="col-sm-1"> </div>           
+            <div class="col-sm-7 ar"data-t="foundation_t">             
+                <h4 class="t">Usuários</h4>
+                <div class="back row">
+                  <div id="foundation1" class="skills data found col-sm"></div>
+                </div>        
+                <h4 class="y">Estrelas</h4>
+                  <div class="back row">
+                    <div id="foundation2" class="skills data foundS col-sm"></div>
+                  </div>
+                  <a class="row text-justify" id="foundation_t"></a>
+            </div>
+        </div> 
+
+        <div class="row mb-4">
+            <h3 class="col-sm-3" >Semantic UI</h3>  
+            <div class="col-sm-1"> </div>         
+            <div class="col-sm-7 ar"data-t="semanticui_t"> 
+                <h4 class="t">Usuários</h4>
+                <div class="back row">
+                  <div id="semantic1" class="skills data seman col-sm"></div>
+                </div>
+              
+                <h4 class="y">Estrelas</h4>
+                  <div class="back row">
+                    <div id="semantic2" class="skills data semanS col-sm"></div>
+                  </div>
+                 <a class="row text-justify" id="semanticui_t"></a>
+            </div>
+        </div> 
+
+        <div class="row mb-4">
+            <h3 class="col-sm-3" >Pure CSS</h3> 
+            <div class="col-sm-1"> </div>            
+            <div class="col-sm-7 ar"data-t="purecss_t">             
+                <h4 class="t">Usuários</h4>
+                <div class="back row">
+                  <div id="pure1" class="skills data pure col-sm"></div>
+                </div>
+                            
+                <h4 class="y">Estrelas</h4>
+                  <div class="back row"> 
+                    <div id="pure2" class="skills data pureS col-sm"></div>
+                  </div>
+                  <a class="row text-justify" id="purecss_t"></a>
+            </div>
+        </div>    
+        <div class="row mb-4"> 
+          <div class="col-sm-4"></div> 
+          <div class="col-sm-7 back">
+            <div id="target-limit" class="skills l">Limite</div>
+          </div>
+        </div>
+        <div class="row">     
+             <div class="col-sm-1 mb-2"></div>  
+              <button class="btn btn-outline-dark col-sm-4 btn-opcoes mb-2"data-limit="264.00" data-table="fama" data-tag="Usuários" data-tag2="Estrelas" ><h4>FAMA</h4></button>
+              <div class="col-sm-2 mb-2"></div>
+              <button class="btn btn-outline-dark col-sm-4 btn-opcoes mb-2"data-limit="12" data-table="destaques" data-tag="Vantagens" data-tag2="Desvantagens" ><h4>DESTAQUES</h4></button>
+              <div class="col-sm-1 mb-2"></div>
+        </div>
+
+        <div class="table-responsive-sm mt-1">
+          <table class="table">
+            <thead class="z thead-dark">
+              <tr>
+                <th id='top' class="col-sm-2"></th>
+                <th id="tit1" class="col-sm-2"></th>
+                <th id="tit2" class="col-sm-2"></th>
+                <th id="tit3" class="col-sm-2"></th>
+                  <th id="tit4" class="col-sm-2"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Bootstrap</th>
+                <td id='l1c1'></td>
+                <td id='l1c2'></td>
+                <td id='l1c3'></td>
+                  <td id='l1c4'></td>
+              </tr>
+              <tr>
+                <th>Materialize</th>
+                <td id='l2c1'></td>
+                <td id='l2c2'></td>
+                <td id='l2c3'></td>
+                  <td id='l2c4'></td>
+              </tr>
+              <tr>
+                <th>Foundation</th>
+                <td id='l3c1'></td>
+                <td id='l3c2'></td>
+                <td id='l3c3'></td>
+                  <td id='l3c4'></td>
+              </tr>
+              <tr>
+                <th>Semantic UI</th>
+                <td id='l4c1'></td>
+                <td id='l4c2'></td>
+                <td id='l4c3'></td>
+                  <td id='l4c4'></td>
+              </tr>
+              <tr>
+                <th>Pure CSS</th>
+                <td id='l5c1'></td>
+                <td id='l5c2'></td>
+                <td id='l5c3'></td>
+                  <td id='l5c4'></td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="text-justify" id='subtitle'></p>
+          </div>
+          <div class="row">     
+             <button class="btn btn-outline-dark col-sm-5 btn-table mb-2" data-table="Peso"><h4>PESO</h4></button>
+             <div class="col-sm-2 mb-2"></div>
+             <button class="btn btn-outline-dark col-sm-5 btn-table mb-2" data-table="Componentes"><h4>COMPONENTES</h4></button>
+          </div>
+          <div class="row">
+             <button class="btn btn-outline-dark col-sm-5 btn-table mb-2" data-table="Consolidação"><h4>CONSOLIDAÇÃO</h4></button>
+             <div class="col-sm-2 mb-2"></div>
+             <button class="btn btn-outline-dark col-sm-5 btn-table mb-2" data-table="Comunidade"><h4>COMUNIDADE</h4></button>
+          </div>
+          <div class="row">
+             <button class="btn btn-outline-dark col-sm-5 btn-table mb-2" data-table="Simplicidade"><h4>SIMPLICIDADE</h4></button>
+          </div>
+      </div>       
+      </div>  
+    </body>
+</html>

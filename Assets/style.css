@@ -1,0 +1,40 @@
+* {box-sizing:border-box}
+
+h1,h5{
+  font-family: "Impact", Charcoal, sans-serif;
+}
+
+.back {
+  background-color: #ddd; 
+  font-family: "Impact", Charcoal, sans-serif;
+}
+
+.skills {
+  text-align: right; 
+  color: white; 
+  transition: ease 2s;
+}
+
+.data{
+  padding-top: 0.5px; 
+  padding-bottom: 0.5px; 
+}
+
+.ar{
+  cursor: pointer;
+}
+
+.l{
+  color: black;
+}
+
+.boot {background-color: #4CAF50;} 
+.bootS{background-color: green;} 
+.found {background-color: #2196F3;} 
+.foundS {background-color: blue;} 
+.mater {background-color: #f44336;} 
+.materS {background-color: brown;} 
+.seman {background-color: #808080;} 
+.semanS {background-color: black;} 
+.pure {background-color: darkorange;} 
+.pureS {background-color: gold;} 

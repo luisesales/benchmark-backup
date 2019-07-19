@@ -1,0 +1,42 @@
+* {box-sizing:border-box}
+
+html,.all,td,th{
+    background-color: black;
+    color: white;
+}
+
+h1,h5{
+  font-family: "Impact", Charcoal, sans-serif;
+}
+
+.back {
+  background-color: #ddd; 
+  font-family: "Impact", Charcoal, sans-serif;
+}
+
+.skills {
+  text-align: right; 
+  color: black; 
+  transition: ease 2s;
+}
+
+.ar{
+  cursor: pointer;
+}
+
+
+.data{
+  padding-top: 0.5px; 
+  padding-bottom: 0.5px; 
+}
+
+.boot {background-color: #af4cac;} 
+.bootS{background-color: #800080;} 
+.found {background-color: #f38021;} 
+.foundS {background-color: #ffff00;} 
+.mater {background-color: #36e7f4;} 
+.materS {background-color: #2aa5a5;} 
+.seman {background-color: #808080;} 
+.semanS {background-color: white;} 
+.pure {background-color: #0073ff;} 
+.pureS {background-color: #0026ff;} 
