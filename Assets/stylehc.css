@@ -30,6 +30,10 @@ h1,h5{
   padding-bottom: 0.5px; 
 }
 
+.hide{
+  display: none;
+}
+
 .boot {background-color: #af4cac;} 
 .bootS{background-color: #800080;} 
 .found {background-color: #f38021;} 

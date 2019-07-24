@@ -21,7 +21,12 @@
             </div>
             <div class="col-xs-1"></div>
             <button class="btn btn-outline-dark col-xs-1 btn-hc" data-css="style" data-css2="stylehc">Alto Contraste</button>
-        </div>    
+        </div>
+        <button id="gpbutton" class="row btn btn-outline-dark btnsh" data-table="gp" name="gpless">
+            <img id="gpimage" src="./Assets/Images/circleplus.svg">
+             <a data-text="Mostrar gráfico" id="gptext">Mostrar gráfico</a>
+        </button>
+        <div class="gp hide">
         <div class="row mb-4">
             <h3 class="col-sm-3">Bootstrap</h3>  
             <div class="col-sm-1"> </div>                      
@@ -118,16 +123,21 @@
               <button class="btn btn-outline-dark col-sm-4 btn-opcoes mb-2"data-limit="12" data-table="destaques" data-tag="Vantagens" data-tag2="Desvantagens" ><h4>DESTAQUES</h4></button>
               <div class="col-sm-1 mb-2"></div>
         </div>
-
+        </div>
+          <button id="tbutton" class="row btn btn-outline-dark btnsh" data-table="tb" name="tbless">
+              <img id="tbimage" src="./Assets/Images/circleplus.svg">
+              <a id="tbtext" data-text="Mostrar tabela">Mostrar tabela</a>
+          </button>
+        <div class="tb hide">
         <div class="table-responsive-sm mt-1">
           <table class="table">
             <thead class="z thead-dark">
               <tr>
-                <th id='top' class="col-sm-2"></th>
-                <th id="tit1" class="col-sm-2"></th>
-                <th id="tit2" class="col-sm-2"></th>
-                <th id="tit3" class="col-sm-2"></th>
-                  <th id="tit4" class="col-sm-2"></th>
+                <th id='top' class="col-xs-auto"></th>
+                <th id="tit1" class="col-sm-auto"></th>
+                <th id="tit2" class="col-sm-auto"></th>
+                <th id="tit3" class="col-sm-auto"></th>
+                  <th id="tit4" class="col-sm-auto"></th>
               </tr>
             </thead>
             <tbody>
@@ -168,7 +178,7 @@
               </tr>
             </tbody>
           </table>
-          <p class="text-justify" id='subtitle'></p>
+          <a class="text-justify" id='subtitle'></a>
           </div>
           <div class="row">     
              <button class="btn btn-outline-dark col-sm-5 btn-table mb-2" data-table="Peso"><h4>PESO</h4></button>
@@ -183,7 +193,8 @@
           <div class="row">
              <button class="btn btn-outline-dark col-sm-5 btn-table mb-2" data-table="Simplicidade"><h4>SIMPLICIDADE</h4></button>
           </div>
-      </div>       
+      </div>
+      </div>
       </div>  
     </body>
 </html>

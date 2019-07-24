@@ -28,6 +28,11 @@ h1,h5{
   color: black;
 }
 
+.hide{
+  display: none;
+
+}
+
 .boot {background-color: #4CAF50;} 
 .bootS{background-color: green;} 
 .found {background-color: #2196F3;} 
